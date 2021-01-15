@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            legend{
+                background:#2B86C1;
+            border: 1px solid white;
+            padding: 5;
+            margin: 10; 
+            }
+        fieldset {
+            background:#2B86C1;
+            border: 1px solid white;
+            padding: 5;
+            margin: 10;
+        }
+
+
+    </style>
+
+    </head>
+    <body text="white" bgcolor="2B86C1" >
+        <form method="POST" >
+         <fieldset >
+            <legend>Registration Details</legend>
+              <table width="400px" height="400px">
+                  <tr>
+           <td>University:</td> <td><input type="=text" size="30" id ="univ" name="university"/></td></tr>
+           <tr>
+           <td> Institute:</td><td><input type="=text" size="30"  id ="inst" name="institute"/></td></tr>
+           <tr>
+           <td>Branch:</td><td><select name="Branch"><option value="--selected--" selected>--selected--</option>
+            </select></td></tr>
+            <tr>
+           <td> Degree:</td><td><select name="degree"><option value="--selected--" selected>--selected--</option>
+            </select></td>
+            <td><input type="radio" id="pur" name="pursuing" value="Pursuing"/>pursuing</td>
+           <td><input type="radio" id="pur" name="completed" value="completed"/>completed</td>
+            </tr>
+            <tr>
+           <td> Avarage CPI:</td><td><select name="upto" size="1" multiple="multiple"><option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option></select>Upto</td>
+            <td><select name="Th"size="1" multiple="multiple"><option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option></select>Th Semester</td></tr>
+            <tr>
+            <td>Experience:</td><td><select name="years" size="1" multiple="multiple"><option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option></select>Years</td></tr>
+            <tr>
+           <td colspan="2"> Your Website Or Blog:</td><td><input type="text"  size="30" name="yourweb" value="http://"/></td></tr>
+            </table>
+        </fieldset>
+    </form>
+    </body>
+</html>
